@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(42, 110, 255);
+}
+
+
+
+footer{
+    text-align: center;
+    color: white;
+}
+
+.fat-grey{
+    color: grey;
+    font-weight: 700;
+}
+
+.central-box{
+    background-color: whitesmoke;
+    border: 1px solid  rgb(42, 110, 255);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+a.in-box:link {
+    color: gray;
+}
+
+footer + a:link {
+    color: white;
+}
+
+.center-form{
+    width: 300px;
+    margin: 0 auto;
+}
+
+body {
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full viewport height */
+  }
+
+  .like-button {
+    background-color: rgb(42, 110, 255) ;
+    width: 300px;
+    height: 20px;
+    margin: 0 auto;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    
+  }
+
+  .input-button {
+    background-color: rgb(207, 199, 199) ;
+    width: 300px;
+    height: 20px;
+    margin: 0 auto;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    
+  }
+
+  .center-formlink{
+    display: flex;
+    justify-content: center; 
+  }

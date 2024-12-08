@@ -1,0 +1,171 @@
+:root{
+    --white: #f9f9f9;
+    --navy: #002e94;
+    --blue: #083aa9;
+    --wedding: #ffe7cc;
+    --beige: #e1ceb5;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;  
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 150px;
+    
+}
+
+main{
+    height: 100vh;
+    overflow: auto;
+}
+
+nav {
+    height: 200px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.bg-navy {
+    background-color: var(--navy);
+}
+
+.bg-beige{
+    background-color: var(--beige);
+}
+
+.text-wedding{
+    color: var(--wedding);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.mt-1{
+    margin-top: 1rem;
+}
+
+.mt-50{
+    margin-top: 50px;
+}
+
+.mb-1{
+    margin-bottom: 1rem;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.ml-1{
+    margin-left: 1rem;
+}
+
+.m-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-blue{
+    background-color: var(--blue);
+}
+
+.bg-wedding{
+    background-color: var(--wedding);
+}
+
+.bg-white{
+    background-color: var(--white);
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.d-100{
+    width: 100%;
+}
+
+.list-style-none{
+    list-style: none;
+}
+
+.d-block{
+    display: block;
+}
+
+.p-1{
+    padding: 1rem;
+}
+
+.text-none{
+    text-decoration: none;
+}
+
+.text-hover-navy:hover{
+    background-color: var(--navy);
+}
+
+.border{
+    border-width: 1px;
+    border-style: solid;
+}
+
+.border-black{
+    border-color: black;
+}
+
+.banner-image{
+    width: 300px;
+    height: auto;
+    border-radius: 10%;
+}
+
+pre{
+    white-space:pre-wrap;
+    word-wrap: break-word;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+@media(max-width:600px){
+    .container{
+        flex-direction: column;
+    }
+
+    nav {
+        margin-top: 0;
+    }
+
+    main {
+        margin-top: 0;
+    }
+}

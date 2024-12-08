@@ -1,0 +1,58 @@
+.container{
+    width: 800px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    border: 1px solid black;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box1{
+    border: 1px solid black;
+    padding: 80px;
+    background-color: lightblue;
+}
+
+.box2{
+    border: 1px solid black;
+    padding: 80px;
+    background-color: lightcoral;
+}
+
+.box3{
+    border: 1px solid black;
+    padding: 80px;
+    background-color: lightcyan;
+}
+
+.item-relative{
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+
+.item-absolute{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.item-fixed{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.z-front{
+    z-index: 1;
+}
+
+.item-sticky{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
